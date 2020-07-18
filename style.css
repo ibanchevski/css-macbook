@@ -187,7 +187,7 @@ ul, li
 .larger-V5 { width: 95px;}
 .space { width: 235px;}
 .enter { width: 30px; transform: translateX(14px) scale(1, 1.3);}
-.key:hover, .macbook-pad:hover { opacity: 0.5;}
+.key:hover, .key.pressed, .macbook-pad:hover { opacity: 0.5;}
 .key::before, .key::after
 {
    display: block;
